@@ -10,7 +10,7 @@ const LeftSidebar = () => {
                 <div className="ls-nav">
                     <img src={assets.logo} className='logo' alt ="" />
                     <div className="menu">
-                        <img src={assets.menu_icon} alt="" />
+                        <img src={assets.menu_icon} alt="menuicon" />
                         <div className="sub-menu">
                             <p>Edit Profile</p>
                             <hr />

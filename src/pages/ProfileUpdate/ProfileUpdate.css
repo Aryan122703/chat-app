@@ -45,7 +45,10 @@
     padding: 10px;
     min-width: 300px;
     color: white;
-    background-color: #077eff;
+    background-color: #f1f1f6;
     padding: 8px;
     cursor: pointer;
+}
+.profile button{
+    background-color: rgb(48, 48, 255);
 }
