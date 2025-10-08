@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Login from './pages/Login/login'
+import Login from './pages/Login/Login'
 import Chat from './pages/Chat/Chat'
 import ProfileUpdate from './pages/ProfileUpdate/ProfileUpdate'
 import Navbar from './components/Navbar'
@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Login />} />
-        <Route path='/chat' element={<Chat />} />
+        <Route path='/chat' element={<Chat />} />   
         <Route path='/profile' element={<ProfileUpdate />} />
       </Routes>
     </>
@@ -19,6 +19,7 @@ const App = () => {
 }
 
 export default App
+
 
 
 
