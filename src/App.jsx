@@ -3,12 +3,12 @@ import { Route, Routes } from 'react-router-dom'
 import Login from './pages/Login/Login'
 import Chat from './pages/Chat/Chat'
 import ProfileUpdate from './pages/ProfileUpdate/ProfileUpdate'
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar'
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/chat' element={<Chat />} />   
