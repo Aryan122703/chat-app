@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Login from './pages/Login/Login'
 import Chat from './pages/Chat/Chat'
 import ProfileUpdate from './pages/ProfileUpdate/ProfileUpdate'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
   return (
